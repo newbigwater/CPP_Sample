@@ -1,0 +1,9 @@
+/DesignPattern/src/*.opendb
+/DesignPattern/src/Builder/*.filters
+/DesignPattern/src/AbstractFactory/*.filters
+/DesignPattern/src/Builder/*.i
+/DesignPattern/src/Builder/*.cfg
+/DesignPattern/src/Builder/*.cmd
+/DesignPattern/src/Builder/*.rsp
+/DesignPattern/src/FactoryMethod/FactoryMethod.sdf
+/DesignPattern/src/FactoryMethod/FactoryMethod.vcxproj.filters
