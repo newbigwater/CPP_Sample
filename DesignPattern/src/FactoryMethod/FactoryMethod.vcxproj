@@ -304,10 +304,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EHApp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyApp.cpp" />
+    <ClCompile Include="MyView.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Common\Common.h" />
+    <ClInclude Include="EHApp.h" />
+    <ClInclude Include="EHView.h" />
+    <ClInclude Include="MyApp.h" />
+    <ClInclude Include="MyView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
