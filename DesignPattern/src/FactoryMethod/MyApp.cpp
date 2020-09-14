@@ -10,12 +10,12 @@ MyApp::MyApp()
 
 MyApp::~MyApp()
 {
-	cout << "MyApp 생성" << endl;
+	cout << "MyApp 해제" << endl;
 }
 
 void MyApp::InitInstance()
 {
-	cout << "MyApp 초기화" << endl;
+	cout << "MyApp::View 초기화" << endl;
 	EHApp::InitInstance();
 }
 

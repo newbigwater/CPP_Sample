@@ -7,7 +7,6 @@ int main(void)
 	MyApp *app = new MyApp();
 	app->InitInstance();
 	app->Run();
-	app->ExitInstance();
 	delete app;
 
 	cout << "" << endl;
@@ -16,7 +15,6 @@ int main(void)
 	EHApp *app2 = new MyApp();
 	app2->InitInstance();
 	app2->Run();
-	app2->ExitInstance();
 	delete app2;
 
 	system("pause");

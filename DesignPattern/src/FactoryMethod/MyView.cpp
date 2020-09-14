@@ -1,7 +1,5 @@
 #include "MyView.h"
 
-
-
 MyView::MyView()
 {
 	cout << "MyView 积己" << endl;
@@ -10,7 +8,7 @@ MyView::MyView()
 
 MyView::~MyView()
 {
-	cout << "MyView 力芭" << endl;
+	cout << "MyView 秦力" << endl;
 };
 
 void MyView::Show()
